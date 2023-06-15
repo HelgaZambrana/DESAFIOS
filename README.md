@@ -1,6 +1,4 @@
-# Entregables_DataEngineering
-
-## Entregable 1
+# Entregable 1 - 15 Junio
 ## Consigna
 Desarrollar un script que extraiga datos de una API pública. Crear una tabla en Redshift para posterior carga de los datos extraídos.
 
