@@ -10,7 +10,7 @@ Desarrollar un script que extraiga datos de una API pública. Crear una tabla en
 ## Requisitos
 ### Código/Script
 - El código deberá entregarse en formatos (.py o .ipynb) disponibles en un repositorio Github
-- La API seleccionada debería contener datos  en cambio constante
+- La API seleccionada debería contener datos en cambio constante
 - La información de la API seleccionada debe ser consultada por lo menos una vez al día
 - El código o script debería extraer varios datos de diferentes categorías/variables: Por ejemplo, si se eligen acciones de bolsa, se pueden elegir diferentes acciones, o subdividir por ETFs
 - La estructura del script/código no debe tener bugs, el código no debe ser redundante, no debe mostrar datos sensibles, debe ser eficiente, debe ejecutar lo que se propone de la forma más sencilla, clara y rápida posible.
