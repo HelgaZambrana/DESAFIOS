@@ -19,3 +19,21 @@ Desarrollar un script que extraiga datos de una API pública. Crear una tabla en
 - La tabla deberá ser creada en Redshift y con información obtenida desde la API elegida
 - Debe contener información corespondiente a la que se extrae de la API
 - Debe incluir una columna temporal para el control de ingesta de datos
+
+# Entregable 2
+## Consigna
+El script de la entrega 1 debe adaptar los datos leídos de la API y cargarlos en la tabla creada en la pre-entrega anterior en Redshift de forma eficiente. Se debe hacer énfasis en la limpieza de los datos crudos obtenidos de la API
+
+## Objetivos
+- Generar ETLs a partir de información de APIs usando las librerías requests, json, psycopg2/SqlAlchemy y pandas
+- Solucionar una situación real de ETL donde puedan llegar a aparecer duplicados, nulos y valores atípicos durante la ingesta - Transformación - Carga de la data
+
+## Requisitos
+### Código/Script
+- El código debería utilizar sólo un dataframe, no debe utilizar más de un solo dataframe para subir los datos.
+
+### Tabla en Amazon Redshift
+- Los datos deben ser extraidos y cargados con sus correspondientes tipos de datos en relación a la tabla creada en Redshift
+- Todas las columnas deberían ser cargadas en la tabla
+- Debe haber una clave primaria compuesta definida en la tabla o en el código
+- En caso de que se quiera insertar una fila con los mismos datos, debe ser reemplazada por los nuevos
