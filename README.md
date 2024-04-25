@@ -26,14 +26,14 @@ El script de la entrega 1 debe adaptar los datos leídos de la API y cargarlos e
 
 ## Objetivos
 - Generar ETLs a partir de información de APIs usando las librerías requests, json, psycopg2/SqlAlchemy y pandas
-- Solucionar una situación real de ETL donde puedan llegar a aparecer duplicados, nulos y valores atípicos durante la ingesta - Transformación - Carga de la data
+- Solucionar una situación real de ETL donde puedan llegar a aparecer duplicados, nulos y valores atípicos durante la Ingesta - Transformación - Carga de la data
 
 ## Requisitos
 ### Código/Script
-- El código debería utilizar sólo un dataframe, no debe utilizar más de un solo dataframe para subir los datos.
+- El código no debe utilizar más de un dataframe para subir los datos
 
 ### Tabla en Amazon Redshift
-- Los datos deben ser extraidos y cargados con sus correspondientes tipos de datos en relación a la tabla creada en Redshift
-- Todas las columnas deberían ser cargadas en la tabla
+- Los datos deben ser extraídos y cargados con sus correspondientes tipos de datos en relación a la tabla creada en Redshift
+- Todas las columnas deben ser cargadas en la tabla
 - Debe haber una clave primaria compuesta definida en la tabla o en el código
 - En caso de que se quiera insertar una fila con los mismos datos, debe ser reemplazada por los nuevos
