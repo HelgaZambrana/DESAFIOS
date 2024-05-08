@@ -1,4 +1,4 @@
-# Entregable 1
+# Iteración 1
 ## Consigna
 Desarrollar un script que extraiga datos de una API pública. Crear una tabla en Redshift para posterior carga de los datos extraídos.
 
@@ -20,7 +20,7 @@ Desarrollar un script que extraiga datos de una API pública. Crear una tabla en
 - Debe contener información corespondiente a la que se extrae de la API
 - Debe incluir una columna temporal para el control de ingesta de datos
 
-# Entregable 2
+# Iteración 2
 ## Consigna
 El script de la entrega 1 debe adaptar los datos leídos de la API y cargarlos en la tabla creada en la pre-entrega anterior en Redshift de forma eficiente. Se debe hacer énfasis en la limpieza de los datos crudos obtenidos de la API
 
